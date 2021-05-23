@@ -66,5 +66,6 @@ class Kernel extends HttpKernel
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
         'per_page' => \App\Http\Middleware\PerPage::class,
         'trainer_logic' => \App\Http\Middleware\trainer_logic::class,
+        'name' => \App\Http\Middleware\Name::class,
     ];
 }
